@@ -60,8 +60,8 @@
                                     <constraint firstAttribute="trailing" secondItem="AcW-Sj-QSc" secondAttribute="trailing" id="lcq-Ux-q1D"/>
                                 </constraints>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fl6-yz-oDH" customClass="RatingControl" customModule="food_tracker" customModuleProvider="target">
-                                <rect key="frame" x="32" y="474" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Fl6-yz-oDH" customClass="RatingControl" customModule="food_tracker" customModuleProvider="target">
+                                <rect key="frame" x="32" y="474" width="250" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>

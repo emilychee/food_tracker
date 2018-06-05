@@ -14,6 +14,7 @@
 		2C88FFA320B1B9240032646F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C88FFA120B1B9240032646F /* LaunchScreen.storyboard */; };
 		2C88FFAE20B1B9240032646F /* food_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C88FFAD20B1B9240032646F /* food_trackerTests.swift */; };
 		2C88FFB920B1B9240032646F /* food_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C88FFB820B1B9240032646F /* food_trackerUITests.swift */; };
+		2CD688C920C71A7000437C26 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD688C820C71A7000437C26 /* Meal.swift */; };
 		2CFD9C1C20B5F747003C6D6D /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD9C1B20B5F747003C6D6D /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		2C88FFB420B1B9240032646F /* food_trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = food_trackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C88FFB820B1B9240032646F /* food_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_trackerUITests.swift; sourceTree = "<group>"; };
 		2C88FFBA20B1B9240032646F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CD688C820C71A7000437C26 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		2CFD9C1B20B5F747003C6D6D /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 				2C88FF9A20B1B9220032646F /* ViewController.swift */,
 				2CFD9C1B20B5F747003C6D6D /* RatingControl.swift */,
 				2C88FF9C20B1B9220032646F /* Main.storyboard */,
+				2CD688C820C71A7000437C26 /* Meal.swift */,
 				2C88FF9F20B1B9240032646F /* Assets.xcassets */,
 				2C88FFA120B1B9240032646F /* LaunchScreen.storyboard */,
 				2C88FFA420B1B9240032646F /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD688C920C71A7000437C26 /* Meal.swift in Sources */,
 				2C88FF9B20B1B9220032646F /* ViewController.swift in Sources */,
 				2CFD9C1C20B5F747003C6D6D /* RatingControl.swift in Sources */,
 				2C88FF9920B1B9220032646F /* AppDelegate.swift in Sources */,
